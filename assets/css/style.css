@@ -278,7 +278,8 @@ h6 {
   background-position: center right;
   position: relative;
 }
-#hero img{
+
+#hero img {
   width: 200px;
   height: 200px;
   border-radius: 100%;
@@ -290,7 +291,7 @@ h6 {
 
     background-size: contain;
     background-position: center top;
-    
+
   }
 }
 
@@ -303,18 +304,19 @@ h6 {
   left: 0;
   right: 0;
 }
+
 #hero h1 {
   margin: 0;
   font-size: 64px;
   font-weight: 800;
   line-height: 56px;
   color: #45505b;
-    /* padding-left: 300px; */
-    /* align-self: auto; */
+  /* padding-left: 300px; */
+  /* align-self: auto; */
 }
 
 #hero p {
-    /* padding-left: 300px; */
+  /* padding-left: 300px; */
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
@@ -328,7 +330,7 @@ h6 {
 
 
 #hero .social-links {
-    /* padding-left: 300px; */
+  /* padding-left: 300px; */
   margin-top: 30px;
 }
 
@@ -365,21 +367,21 @@ h6 {
 
   #hero .social-links {
     padding-left: 0%;
-  margin-top: 30px;
-}
+    margin-top: 30px;
+  }
 
-#hero .social-links a {
-  font-size: 24px;
-  display: inline-block;
-  color: #45505b;
-  line-height: 1;
-  margin-right: 20px;
-  transition: 0.3s;
-}
+  #hero .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
 
-#hero .social-links a:hover {
-  color: #0563bb;
-}
+  #hero .social-links a:hover {
+    color: #0563bb;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -436,11 +438,11 @@ section {
 # About
 --------------------------------------------------------------*/
 #read-more {
-  border:  1px solid;
-  border: none; 
+  border: 1px solid;
+  border: none;
   border-radius: 20px;
   display: block;
-  margin: 20px auto; 
+  margin: 20px auto;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -450,9 +452,10 @@ section {
 .col-lg-12 {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
-#read-more:hover{
+
+#read-more:hover {
   color: #fff;
   background: #0563bb;
 }
@@ -489,13 +492,15 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-.about{
-    padding-bottom: 0px;
+
+.about {
+  padding-bottom: 0px;
 }
 
-.about .section-title p{
+.about .section-title p {
   text-align: justify;
 }
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -537,8 +542,9 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
-.facts{
-    padding-bottom: 0px;
+
+.facts {
+  padding-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -576,9 +582,9 @@ section {
   transition: 0.9s;
   background-color: #05bb5a;
 }
-.skills
-{
-    padding-bottom: 0px;
+
+.skills {
+  padding-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -642,9 +648,10 @@ section {
   border: 2px solid #0563bb;
 }
 
-.resume{
-    padding-bottom: 0px;
+.resume {
+  padding-bottom: 0px;
 }
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -903,7 +910,8 @@ section {
 .icon-box p {
   font-size: 14px;
   color: #555;
-  flex-grow: 1; /* Ensures the content area can expand */
+  flex-grow: 1;
+  /* Ensures the content area can expand */
 }
 
 .icon-box picture {
@@ -1244,7 +1252,7 @@ section {
 # PyHRM Section
 --------------------------------------------------------------*/
 
-.back-video{
+.back-video {
   width: 700px;
   height: 500px;
 }
@@ -1264,7 +1272,7 @@ section {
   #Pyhero {
     background-size: contain;
     background-position: center top;
-    
+
   }
 }
 
@@ -1277,6 +1285,7 @@ section {
   left: 0;
   right: 0;
 }
+
 /*
 #hero h1 {
   margin: 0;
@@ -1307,12 +1316,12 @@ section {
   font-weight: 800;
   line-height: 56px;
   color: #45505b;
-    padding-left: 600px;
-    /* align-self: auto; */
+  padding-left: 600px;
+  /* align-self: auto; */
 }
 
 #Pyhero p {
-    padding-left: 600px;
+  padding-left: 600px;
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
@@ -1326,7 +1335,7 @@ section {
 
 
 #Pyhero .social-links {
-    padding-left: 600px;
+  padding-left: 600px;
   margin-top: 30px;
 }
 
@@ -1363,24 +1372,25 @@ section {
 
   #Pyhero .social-links {
     padding-left: 0%;
-  margin-top: 30px;
+    margin-top: 30px;
+  }
+
+  #Pyhero .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+
+  #Pyhero .social-links a:hover {
+    color: #0563bb;
+  }
 }
 
-#Pyhero .social-links a {
-  font-size: 24px;
-  display: inline-block;
-  color: #45505b;
-  line-height: 1;
-  margin-right: 20px;
-  transition: 0.3s;
-}
-
-#Pyhero .social-links a:hover {
-  color: #0563bb;
-}
-}
- /* Custom background for prev icon */
- /* .carousel-control-prev-icon {
+/* Custom background for prev icon */
+/* .carousel-control-prev-icon {
   background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2323442" viewBox="0 0 8 8"><path d="M4.03 0L.03 4l4 4 .69-.72L1.41 4l3.3-3.28L4.03 0z"/></svg>');
 } */
 
@@ -1392,8 +1402,10 @@ section {
 
 /* CSS to ensure all cards are the same size */
 .icon-box {
-  width: 100%; /* Ensures the box fills the column */
-  height: 300px; /* Set a fixed height for consistency */
+  width: 100%;
+  /* Ensures the box fills the column */
+  height: 300px;
+  /* Set a fixed height for consistency */
   padding: 20px;
   box-sizing: border-box;
   background: #f9f9f9;
@@ -1409,7 +1421,8 @@ section {
 
 .icon-box img {
   max-width: 100%;
-  max-height: 120px; /* Ensure images fit within the card */
+  max-height: 120px;
+  /* Ensure images fit within the card */
   object-fit: contain;
   margin-bottom: 20px;
 }
@@ -1462,8 +1475,8 @@ section {
 }
 
 .about .container {
-  /* max-width: 800px; */
-  /* margin: 0 auto; */
+  max-width: 850px;
+  margin: 0 auto;
   display: block;
 }
 
@@ -1477,124 +1490,127 @@ section {
   flex-wrap: wrap;
 }
 
-    .contact-container {
-      margin-left: 0;
-      width: 100%;
-    }
+.contact-container {
+  margin-left: 0;
+  width: 100%;
+}
 
-    .contact-info {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 0 auto;
-      width: 100%;
-    }
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
 
-    .info-item {
-      width: 45%;
-      margin: 10px 2.5%;
-      text-align: center;
-    }
+.info-item {
+  width: 45%;
+  margin: 10px 2.5%;
+  text-align: center;
+}
 
-    .resume-download {
-      text-align: center;
-      margin-top: 5%;
-    }
+.resume-download {
+  text-align: center;
+  margin-top: 5%;
+}
 
-    .download-button {
-      display: inline-block;
-      padding: 12px 24px;
-      font-size: 16px;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      background-color: #1d66a6;
-      color: #ffffff;
-      border-radius: 4px;
-      border: none;
-      transition: background-color 0.3s ease;
-    }
+.download-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1d66a6;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
 
-    .download-button:hover {
-      background-color: #ffffff;
-      color: #1d66a6;
-    }
+.download-button:hover {
+  background-color: #ffffff;
+  color: #1d66a6;
+}
 
-    @media (max-width: 768px) {
-      .info-item {
-        width: 80%;
-        margin: 10px auto;
-      }
-
-      .resume-download {
-        margin-top: 10%;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .info-item {
-        width: 100%;
-        margin: 10px 0;
-      }
-    }
-  /* Adjusting image sizes for responsiveness */
-  .carousel-item .col-12 {
-    margin-bottom: 15px;
+@media (max-width: 768px) {
+  .info-item {
+    width: 80%;
+    margin: 10px auto;
   }
 
-  /* Carousel Controls */
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    width: 50px;
-    height: 50px;
-    background-color:#0563bb;
-    border-radius: 50%;
-    background-size: 50%, 50%;
+  .resume-download {
+    margin-top: 10%;
   }
-  .carousel-control-prev-icon {
-margin-right: auto;
+}
+
+@media (max-width: 480px) {
+  .info-item {
+    width: 100%;
+    margin: 10px 0;
   }
-  .carousel-control-next-icon {
-    margin-left: auto;
+}
+
+/* Adjusting image sizes for responsiveness */
+.carousel-item .col-12 {
+  margin-bottom: 15px;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #0563bb;
+  border-radius: 50%;
+  background-size: 50%, 50%;
+}
+
+.carousel-control-prev-icon {
+  margin-right: auto;
+}
+
+.carousel-control-next-icon {
+  margin-left: auto;
+}
+
+/* Controls Position */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 768px) {
+  .carousel-item .col-md-4 {
+    margin-bottom: 20px;
   }
 
-  /* Controls Position */
   .carousel-control-prev,
   .carousel-control-next {
-    width: 10%;
+    width: 20%;
   }
 
-  /* Media Query for mobile devices */
-  @media (max-width: 768px) {
-    .carousel-item .col-md-4 {
-      margin-bottom: 20px;
-    }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
 
-    .carousel-control-prev,
-    .carousel-control-next {
-      width: 20%;
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      width: 40px;
-      height: 40px;
-    }
+@media (max-width: 576px) {
+  .carousel-item .col-md-4 {
+    width: 100%;
   }
 
-  @media (max-width: 576px) {
-    .carousel-item .col-md-4 {
-      width: 100%;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-      width: 25%;
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      width: 35px;
-      height: 35px;
-    }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 25%;
   }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 35px;
+    height: 35px;
+  }
+}
